@@ -32,3 +32,10 @@ describe('Return the number in the list in a new list follows `[min]` when the n
     });
 
 });
+
+describe("Return a string of 'Array is empty!' when the array is empty", function () {
+
+    it("should return 'Array is empty!' for []", function () {
+      expect(findMinMax([])).toEqual("Array is empty!");
+    });
+});
